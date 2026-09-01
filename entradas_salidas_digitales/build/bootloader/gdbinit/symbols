@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    # Bootloader elf was not found
+set confirm on
+
+# Load application symbols
+file C:/Users/ALAVEPC/Documents/proy_Micros/CLASE1/codigo_ejemplo/entradas_salidas_digitales/build/bootloader/bootloader.elf

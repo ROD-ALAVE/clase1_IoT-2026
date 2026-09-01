@@ -1,0 +1,350 @@
+!SESSION 2026-09-01 14:04:02.821 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_BO
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-09-01 14:06:20.130
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-09-01 14:06:20.134
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-09-01 14:06:20.136
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-09-01 14:06:20.138
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-01 14:06:20.152
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ALAVEPC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:21.406
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:21.406
+!MESSAGE idf_tools.py path: null/tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:21.407
+!MESSAGE idf_tools.py path doesn't exist
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:21.409
+!MESSAGE [C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin]
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:22.785
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.1.0/
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:22.872
+!MESSAGE Executing C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.921
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.922
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.923
+!MESSAGE Key: ESP_ROM_ELF_DIR Value: C:\Espressif\tools\esp-rom-elfs\20241011\
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.924
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf5.5_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.925
+!MESSAGE Key: ESP_IDF_VERSION Value: 5.5
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.925
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.926
+!MESSAGE Key: IDF_DEACTIVATE_FILE_PATH Value: C:\Users\ALAVEPC\AppData\Local\Temp\tmpiwlgv_dmidf_16980
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.928
+!MESSAGE Executing C:\Espressif\python_env\idf5.5_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py --version
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:26.929
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.676
+!MESSAGE Updating environment variables with key:ESP_IDF_VERSION value:5.5.2
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.680
+!MESSAGE Updating environment variables with key:GIT_PATH value:C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.680
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.682
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.683
+!MESSAGE Updating environment variables with key:IDF_PATH value:C:/Espressif/frameworks/esp-idf-v5.5.2-2/
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.684
+!MESSAGE Updating environment variables with key:IDF_PYTHON_ENV_PATH value:C:\Espressif\python_env\idf5.5_py3.11_env
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.686
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.687
+!MESSAGE Updating environment variables with key:PATH value:C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.688
+!MESSAGE Updating environment variables with key:PYTHON_EXE_PATH value:C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.688
+!MESSAGE Updating environment variables with key:IDF_COMPONENT_MANAGER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.689
+!MESSAGE Updating environment variables with key:IDF_MAINTAINER value:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.692
+!MESSAGE Executing C:\Espressif\python_env\idf5.5_py3.11_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py --list-targets
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:33.693
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:36.794
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:36.795
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.5.2-2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:36.796
+!MESSAGE [C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.5.2-2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:38.614
+!MESSAGE idf_tools.py export output: WARNING: The following issue occurred while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.5_py3.11_env\\idf_version.txt'. (Diagnostic information. It can be ignored.)
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20241011\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.5_py3.11_env
+ESP_IDF_VERSION=5.5
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\ALAVEPC\AppData\Local\Temp\tmp502cxrweidf_17752
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:38.615
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:38.616
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:38.813
+!MESSAGE Executing C:\Espressif\python_env\idf5.5_py3.11_env/Scripts/python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:38.815
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:42.005
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.5.2-2/
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:42.175
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v5.5.2-2/
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:06:45.976
+!MESSAGE ESP-IDF v5.5.2
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:25.959
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.001
+!MESSAGE Project Name:: entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.002
+!MESSAGE Project:: P/entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.030
+!MESSAGE toolchain path: C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.047
+!MESSAGE toolchain path: C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin\riscv32-esp-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.521
+!MESSAGE C:\Users\ALAVEPC\Documents\proy_Micros\CLASE1\codigo_ejemplo\entradas_salidas_digitales\build\project_description.json could not find
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.532
+!MESSAGE Project Name:: entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.534
+!MESSAGE Project:: P/entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.550
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.559
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:27.768
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20250707 (2025-07-06-17:44)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:42.979
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:42.983
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:42.996
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:43.010
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 14:07:43.021
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:11.460
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:11.473
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:11.484
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:11.754
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py -p  flash
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:13.747
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:13.755
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:19:13.765
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.770
+!MESSAGE Project Name:: entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.771
+!MESSAGE Project:: P/entradas_salidas_digitales
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.791
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.799
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.804
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.815
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:24.827
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:42.581
+!MESSAGE Open On-Chip Debugger v0.12.0-esp32-20250707 (2025-07-06-17:44)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:58.979
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:58.990
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:22:59.001
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:23:00.180
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:23:00.184
+!MESSAGE flash command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:22.796
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:22.802
+!MESSAGE Executing C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:22.802
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:23.524
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:28.447
+!MESSAGE ESP-IDF v5.5.2
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:28.453
+!MESSAGE [C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf_monitor.py, --no-reset, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:63993, C:/Users/ALAVEPC/Documents/proy_Micros/CLASE1/codigo_ejemplo/entradas_salidas_digitales/build/app-template.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:28.455
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.5.2-2/, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.5_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:28.456
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, TERM=vt102, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.5.2-2/, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.5_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:29.528
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:29.529
+!MESSAGE 0:0:0:0:0:0:0:1
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:41.937
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:41.945
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:25:41.952
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:28:42.805
+!MESSAGE org.java_websocket.WebSocketImpl@aab3640 is terminated!
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:41.746
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:41.759
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:41.770
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:42.775
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:42.779
+!MESSAGE flash command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf.py -p COM3 flash
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:58.389
+!MESSAGE Executing C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -m pip list
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:58.389
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:29:58.391
+!MESSAGE Server started!
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:01.131
+!MESSAGE websocket-client already installed
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:05.578
+!MESSAGE ESP-IDF v5.5.2
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:05.586
+!MESSAGE [C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools\idf_monitor.py, --no-reset, -p, \\.\COM3, -b, 115200, --ws, ws://localhost:54215, C:/Users/ALAVEPC/Documents/proy_Micros/CLASE1/codigo_ejemplo/entradas_salidas_digitales/build/app-template.elf]
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:05.586
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.5.2-2/, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.5_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:05.586
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-PMTF16T, PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\16.3_20250913\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\16.3_20250913\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20251107\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\esp-19.1.2_20250312\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20251107\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.38_20240113\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.30.2\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\bin;C:\Espressif\tools\ninja\1.12.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.11.2\ccache-4.11.2-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.5.2-2\tools;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin;C:\Espressif\python_env\idf5.5_py3.11_env\Scripts;C:\Espressif\tools\idf-python\3.11.2\python;C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Go\bin;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ALAVEPC\AppData\Local\Programs\Python\Python314\;C:\Users\ALAVEPC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALAVEPC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;C:\Users\ALAVEPC\AppData\Roaming\npm;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Windsurf\bin;C:\Users\ALAVEPC\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Ollama;C:\Users\ALAVEPC\AppData\Local\Programs\Zed\bin;C:\flutter-rod\flutter\bin;C:\Users\ALAVEPC\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ALAVEPC\AppData\Roaming\Composer\vendor\bin;C:\Users\ALAVEPC\go\bin, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ESP_IDF_VERSION=5.5.2, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20250707\openocd-esp32\share\openocd\scripts, USERNAME=ALAVEPC, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, EFC_12316_3789132940=1, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, GOPATH=C:\Users\ALAVEPC\go, ProgramData=C:\ProgramData, IDF_COMPONENT_MANAGER=1, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ALAVEPC, EFC_12316_4126798990=1, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD, PYTHON_EXE_PATH=C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\ALAVEPC\AppData\Local, ChocolateyLastPathUpdate=134146220384180207, GIT_PATH=C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, EFC_12316_1262719628=1, USERDOMAIN=DESKTOP-PMTF16T, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-PMTF16T, TERM=vt102, EFC_12316_2946480783=1, IDF_TOOLS_PATH=C:/Espressif, OneDrive=C:\Users\ALAVEPC\OneDrive, APPDATA=C:\Users\ALAVEPC\AppData\Roaming, ChocolateyInstall=C:\ProgramData\chocolatey, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=DESKTOP-PMTF16T, IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.5.2-2/, EFC_12316_1592913036=1, PROCESSOR_REVISION=a000, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, IDF_MAINTAINER=1, SystemRoot=C:\WINDOWS, TEMP=C:\Users\ALAVEPC\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\ALAVEPC, TMP=C:\Users\ALAVEPC\AppData\Local\Temp, EFC_12316_2775293581=1, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, EFC_12316_2283032206=1, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.5_py3.11_env}
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:06.468
+!MESSAGE Connection Made to: 
+
+!ENTRY com.espressif.idf.core 1 0 2026-09-01 16:30:06.473
+!MESSAGE 0:0:0:0:0:0:0:1
