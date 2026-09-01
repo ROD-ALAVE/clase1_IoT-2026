@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/ALAVEPC/Documents/proy_Micros/CLASE1/codigo_ejemplo/entradas_salidas_digitales/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/ALAVEPC/Documents/proy_Micros/CLASE1/codigo_ejemplo/entradas_salidas_digitales/build/app-template.elf
